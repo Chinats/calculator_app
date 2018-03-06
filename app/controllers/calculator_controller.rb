@@ -7,4 +7,6 @@ class CalculatorController < ApplicationController
     render :index
   end
 
+  include CalculatorHelper
+
 end
